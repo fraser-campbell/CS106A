@@ -26,7 +26,7 @@ public class FacePamphlet extends Program
 		
 		database = new FacePamphletDatabase();
 		
-		//North
+		//North - buttons and text fields
 		add(new JLabel("Name"), NORTH);
 		nametext = new JTextField(TEXT_FIELD_SIZE);
 		add(nametext, NORTH);
@@ -37,7 +37,7 @@ public class FacePamphlet extends Program
 		lookup = new JButton("Lookup");
 		add(lookup, NORTH);
 		
-		//West
+		//West - buttons and text fields
 		statustext = new JTextField(TEXT_FIELD_SIZE);
 		add(statustext, WEST);
 		statusbutton = new JButton("Change Status");
